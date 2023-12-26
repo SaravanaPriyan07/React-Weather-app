@@ -82,20 +82,20 @@ function WeatherApp() {
         <div className="weather-image">
           <img src={wicon} />
         </div>
-        <div className="weather-temp">24&deg;c</div>
+        <div className="weather-temp">0&deg;c</div>
         <div className="weather-location">India</div>
         <div className="data-container">
           <div className="element">
             <img src={humidity_icon} className="icon" />
             <div className="data">
-              <div className="humidity-percentage">64%</div>
+              <div className="humidity-percentage">0%</div>
               <div className="text">Humidity</div>
             </div>
           </div>
           <div className="element">
             <img src={wind_icon} className="icon" />
             <div className="data">
-              <div className="wind-rate">18km/h</div>
+              <div className="wind-rate">0km/h</div>
               <div className="text">Wind Speed</div>
             </div>
           </div>
