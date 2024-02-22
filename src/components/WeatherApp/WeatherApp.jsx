@@ -101,6 +101,12 @@ function WeatherApp() {
           </div>
         </div>
       </div>
+      <div
+        className="copyright"
+        style={{ background: "transparent", position: "absolute", bottom: "0" }}
+      >
+        <p>Copyright &copy; Saravana Priyan.</p>
+      </div>
     </>
   );
 }
